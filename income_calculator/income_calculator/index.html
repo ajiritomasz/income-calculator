@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="items-container">
+        <div class="d-flex justify-content-center">
+            <div class="balance">
+            Balance
+            <div class="balance-value">0</div>
+            </div>  
+        </div>
+        <div class="d-flex justif-content-between">
+            <div class="income">
+                Income
+                <div class="income-value">0</div>
+            </div>
+            <div class="expenses">
+                Expenses
+
+                <div class="expense-value">0</div>
+            </div>
+        </div>
+        <div>
+            <form id="income-form">
+                <div class="input-container">
+                    <select name="" id="type" required>
+                        <option value="income">Income</option>
+                        <option value="expense">Expense</option>
+                    </select>
+                    <input type="number" id="amount" placeholder="enter amount" required>
+                    <input type="text" id="description" placeholder="description.." required>
+                </div>
+                <div>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="list">
+        <table>
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                    <th>Description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody class="item-content">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

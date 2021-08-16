@@ -1,0 +1,160 @@
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.items-container {
+  width: 500px;
+  padding: 10px;
+  margin: 50px;
+}
+
+.list {
+  margin: 50px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justif-content-between {
+  justify-content: space-between;
+}
+
+.justif-content-center {
+  justify-content: center;
+}
+
+.balance {
+  height: 100px;
+  background-color: #00b7ff;
+  color: white;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+  font-weight: bold;
+}
+.income {
+  color: white;
+  background-color: rgb(11, 170, 170);
+  width: 50%;
+  height: 100px;
+  margin: 0px 5px 10px 0px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.expenses {
+  color: white;
+  background-color: rgb(168, 7, 7);
+  width: 50%;
+  height: 100px;
+  margin: 0px 5px 10px 0px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 50px;
+}
+.input-container select,
+.input-container input {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: gray;
+}
+
+.input-container select {
+  margin-right: 10px;
+}
+
+.input-container input {
+  margin-left: 10px;
+}
+
+#description {
+  width: 100%;
+}
+
+#submit {
+  padding: 20px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 30px;
+  background: linear-gradient(#0369bd, #0daedf);
+  cursor: pointer;
+  box-shadow: 3px 5px 7px gray;
+}
+
+#submit:hover {
+  background: linear-gradient(#0daedf, #0369bd);
+}
+
+#submit:active {
+  box-shadow: 0px 1px 1px gray;
+}
+
+.income-value,
+.expense-value,
+.balance-value {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #263d61;
+  color: white;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+thead tr {
+  background-color: #263d61;
+}
+
+tr {
+  width: 100%;
+  background-color: #fff;
+}
+
+th,
+td {
+  text-align: center;
+  border: none;
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.delbutton {
+  padding: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px gray;
+  cursor: pointer;
+}
+
+.delbutton:active {
+  box-shadow: 1px 1px 2px gray;
+}
